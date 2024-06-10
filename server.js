@@ -5,6 +5,7 @@ const app = express()
 
 app.use(express.json())
 
+
 app.use("/",route)
 mongoose.connect('mongodb+srv://avenger:rajatrajat12@cluster0.wuyw0.mongodb.net/quickly_platforms');
 
