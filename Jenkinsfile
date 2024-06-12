@@ -4,10 +4,9 @@ pipeline{
         stage('Build'){
             steps{
               sh 'npm i'
-            }
-            steps{
               sh 'Hello Rajat'
             }
+            
         }
     }
 
