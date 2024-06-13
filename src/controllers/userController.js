@@ -81,8 +81,13 @@ try{
 }
 }
 
+function test(req,res){
+    res.status(200).send({message:"Success"})
+}
+
 module.exports={
     register,
     login,
-    downloadCsvFile
+    downloadCsvFile,
+    test
 }
